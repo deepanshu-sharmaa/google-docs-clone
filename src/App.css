@@ -1,0 +1,34 @@
+.editor{
+   width: 70%;
+   background: #FFF;
+   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+   margin: 10px auto 10px auto !important;
+   min-height: 100vh;
+
+}
+
+.ql-toolbar.ql-snow{
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #ddedf4;
+  border: none !important;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.ql-container.ql-snow{
+  height: 100vh;
+}
+
+.nav{
+  position: sticky;
+  margin-bottom: 10px;
+}
+
+.side{
+  position: fixed;
+  right: 0;
+  z-index: 10;
+}
